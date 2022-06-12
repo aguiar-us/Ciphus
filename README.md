@@ -18,7 +18,7 @@ Ciphus was built using JavaScript and its frameworks (native and non-native). Yo
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch
+Ciphus is maintained by the following person(s) and a bunch
 of [awesome contributors](https://github.com/aguiar-us/Ciphus/graphs/contributors).
 
 

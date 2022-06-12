@@ -8,10 +8,21 @@
 
 ### Note
 
-This project was created and is maintained by an information security __enthusiast__. Any bug can and should be reported in this repository or through effective [communication channels]().
+This project was created and is maintained by an information security __enthusiast__. Any bug can and should be [reported in this repository](https://github.com/aguiar-us/Ciphus/issues/new/choose) or through effective [communication channels]().
 
 ## Introduction
-Ciphus is an open source web application for securely managing passwords. Ciphus was created by a Brazilian information security enthusiast ([André Aguiar](https://github.com/aguiar-us/)) with the aim of studying and interpreting the most secure encryption algorithms on the market.
+Ciphus is an open source web application for securely managing passwords. Ciphus was created for studying and interpreting the most secure encryption algorithms on the market.
 
 ## Construction
 Ciphus was built using JavaScript and its frameworks (native and non-native). You can read the full list [here](#).
+
+## Team
+
+This theme is maintained by the following person(s) and a bunch
+of [awesome contributors](https://github.com/aguiar-us/Ciphus/graphs/contributors).
+
+
+| [![André Aguiar](https://github.com/aguiar-us.png?size=100)](https://github.com/aguiar-us) |
+|:--:|
+| [André Aguiar](https://github.com/aguiar-is)<br>Developer |,
+

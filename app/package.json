@@ -1,13 +1,17 @@
 {
   "name": "ciphus",
   "version": "1.0.0",
-  "description": "Ciphus is a password manager that stores encrypted passwords for your security. ",
+  "description": "Ciphus is a secure password manager. ",
   "main": "index.js",
   "scripts": {
-    "development": "echo 'off'",
+    "development": "nodemon source/server.js",
     "production": "echo 'off'"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
 }

@@ -1,0 +1,14 @@
+{
+    "default": {
+        "name": "Ciphus",
+        "version": "1.0.0"
+    },
+    "server": {
+        "ports": {
+            "random": {
+                "minimum": 1,
+                "maximum": 65535
+            }
+        }
+    }
+}

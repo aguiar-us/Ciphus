@@ -4,7 +4,7 @@
     <img src=".github/logo.png" width="300px">
 </p>
 
-<p align="center">Ciphus stores your passwords securely.</p>
+<p align="center">Ciphus stores your passwords securely.<br>status: not done/showing errors during tests</p>
 
 ### Note
 

@@ -1,11 +1,11 @@
-const app = require('./app');
+const application = require('./app');
 const { Web_Server } = require('./functions/server/openServer');
 
-  Web_Server(app, 100000);
+  Web_Server(application);
   // You can configure your own port to run this application.
-  // Use: Web_Server(app, <your_int_port_here>). Ex: Web_Server(app, 443)
+  // Use: Web_Server(application, <your_int_port_here>). Ex: Web_Server(application, 443)
 
-app.on('error', (error) => {
+application.on('error', (error) => {
     switch (error.code) {
         case 'EACCES':
           console.log(`

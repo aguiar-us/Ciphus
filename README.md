@@ -24,5 +24,5 @@ of [awesome contributors](https://github.com/aguiar-us/Ciphus/graphs/contributor
 
 | [![André Aguiar](https://github.com/aguiar-us.png?size=100)](https://github.com/aguiar-us) |
 |:--:|
-| [André Aguiar](https://github.com/aguiar-is)<br>Developer |,
+| [André Aguiar](https://github.com/aguiar-is)<br>Developer |
 

@@ -1,17 +1,20 @@
-exports.action = (application, port) => {
-    
-    // detecta se a porta foi enviada através da variável na função
-    if (port) {
-        application.set('port', port);
-    } else {
-        // se a opção acima for null, carrega essa
-        console.log()
-    }
+const configs = require('../../configs/handler'); 
+const { generateRandomPort } = require('../../functions/server/generateRandomPort');
 
-    application.listen(
+const Web_Server = async (application, port) => {
+        if  (port && !isNaN(port) && port >= configs['application:http:port:minimum'] && port <= configs['application:http:port:maximum'] ) {
+            console.log(1)
+            application.set('port', port);
+        } else {
+            console.log(2)
+            application.set('port', await generateRandomPort(configs['application:http:port:minimum'], configs['application:http:port:maximum']))
+        }
+
+    // Application listener (open server)
+    const Web_Application = application.listen(
         application.get('port'), () => {
-            var server_application_host = (server.address().address || '127.0.0.1');
-            var server_application_port = server.address().port;
+            var server_application_host = (Web_Application.address().address || '127.0.0.1');
+            var server_application_port = Web_Application.address().port;
 
             if (server_application_host === '::') {
                 server_application_host = "http://localhost"
@@ -21,3 +24,5 @@ exports.action = (application, port) => {
         }
     );
 }
+
+module.exports = { Web_Server };
